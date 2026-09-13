@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/excursion_details"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editExcursionTitle"
+        android:layout_width="368dp"
+        android:layout_height="71dp"
+        android:hint="@string/excursion_title"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editExcursionDate"
+        android:layout_width="369dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/excursion_date" />
+
+    <Button
+        android:id="@+id/buttonSaveExcursion"
+        android:layout_width="263dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/save_excursion" />
+
+    <Button
+        android:id="@+id/buttonDeleteExcursion"
+        android:layout_width="267dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/delete_excursion" />
+
+    <Button
+        android:id="@+id/buttonExcursionAlert"
+        android:layout_width="272dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/set_excursion_alert" />
+
+</LinearLayout>

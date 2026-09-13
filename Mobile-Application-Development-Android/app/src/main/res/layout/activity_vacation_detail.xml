@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="2dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vacation Details"
+        android:textSize="24sp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="350dp"
+        android:layout_height="57dp"
+        android:autofillHints="none"
+        android:hint="@string/vacation_title"
+        android:inputType="text"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/editHotel"
+        android:layout_width="350dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints="none"
+        android:hint="@string/hotel"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editStartDate"
+        android:layout_width="350dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints="none"
+        android:hint="@string/start_date"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/editEndDate"
+        android:layout_width="350dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints="none"
+        android:hint="@string/end_date"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="89dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/save" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="102dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/delete" />
+
+    <Button
+        android:id="@+id/buttonViewExcursions"
+        android:layout_width="138dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/view_excursions" />
+
+    <Button
+        android:id="@+id/buttonShare"
+        android:layout_width="138dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/share_vacation" />
+
+    <Button
+        android:id="@+id/buttonStartAlert"
+        android:layout_width="146dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/set_start_alert" />
+
+    <Button
+        android:id="@+id/buttonEndAlert"
+        android:layout_width="135dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/set_end_alert" />
+
+</LinearLayout>
